@@ -33,6 +33,10 @@ Created a staging view by combining all the eight source views.
 # Created persisting marts
 
 Created agent,region,witness marts. For region, created a surrogate key using md5 hashing based on the coordinates.Used as a foreign key on region table.
+# ERD
+
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/95598821/196484708-2808bce2-aa98-4134-a45b-5e8686ce2ebd.png">
+
 
 # Created Analytical queries underneath requests.
 
