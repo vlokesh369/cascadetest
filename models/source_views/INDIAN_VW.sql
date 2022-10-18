@@ -1,0 +1,1 @@
+select *, 'INDIAN' as Source_Country from {{ ref('INDIAN') }}

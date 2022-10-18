@@ -1,0 +1,1 @@
+select *, 'AMERICA' as Source_Country from {{ ref('AMERICA') }}
