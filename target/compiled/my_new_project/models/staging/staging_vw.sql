@@ -1,0 +1,60 @@
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.AFRICA_VW
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.AMERICA_VW 
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.ATLANTIC_VW 
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.AUSTRALIA_VW 
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.ASIA_VW 
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.EUROPE_VW 
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.INDIAN_VW 
+
+
+
+UNION
+
+SELECT
+*
+FROM PC_DBT_DB.dbt_LVenkenddini.PACIFIC_VW 
+
