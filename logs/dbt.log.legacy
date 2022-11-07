@@ -2100,3 +2100,13 @@ There are 1 unused configuration paths:
 2022-11-07 21:53:05.314462 (Thread-25): 21:53:05  The selection criterion '+dbt_project.yml+' does not match any nodes
 2022-11-07 21:53:05.314601 (Thread-25): 21:53:05  No nodes selected!
 2022-11-07 21:53:05.316201 (Thread-25): sending response (<Response 2523 bytes [200 OK]>) to 10.0.2.212
+2022-11-07 21:53:20.888812 (Thread-26): 21:53:20  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-11-07 21:53:20.889175 (Thread-26): 21:53:20  Partial parsing enabled, no changes found, skipping parsing
+2022-11-07 21:53:20.890556 (Thread-26): 21:53:20  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.housinganywhere_data
+
+2022-11-07 21:53:20.899128 (Thread-26): 21:53:20  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2e5930c1-fab1-406b-85cb-df9db43afe98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd64158c40>]}
+2022-11-07 21:53:21.306797 (Thread-27): handling status request
+2022-11-07 21:53:21.307221 (Thread-27): 21:53:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e5930c1-fab1-406b-85cb-df9db43afe98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd641df610>]}
+2022-11-07 21:53:21.307710 (Thread-27): sending response (<Response 1709 bytes [200 OK]>) to 10.0.2.212
